@@ -4,7 +4,7 @@ if n>=90:
 elif n>=80:
     print("B")
 elif n>=70:
-    print('C')
+    print("C")
 elif N>=60:
     print("D")
 else:
