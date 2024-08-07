@@ -5,7 +5,7 @@ elif n>=80:
     print("B")
 elif n>=70:
     print("C")
-elif N>=60:
+elif n>=60:
     print("D")
 else:
     print("F")
