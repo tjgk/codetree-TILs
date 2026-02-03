@@ -1,4 +1,5 @@
-a=reversed(list(map(int,input().split())))
-for i in a:
-    if i!=0:
-        print(i,end=" ")
+a=list(map(int,input().split()))
+if a.count(0)>0:
+    a=a[:a.index(0)]
+for i in reversed(a):
+    print(i,end=" ")
